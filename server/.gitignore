@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# Build output
+build/
+dist/
+
+# Dependency directories
+jspm_packages/
+
+# Optional VSCode settings
+.vscode/
+
+# macOS Finder files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Ignore debug and test coverage directories
+debug/
+test-coverage/
+
+# React specific
+*.css.map
+*.scss.map
+*.js.map
+
+# Build artifacts
+public/
+
+# NPM packages lock files
+package-lock.json
+yarn.lock
+
+# Miscellaneous
+*.pem
+*.key
+*.csr
+*.p12
+*.crt
