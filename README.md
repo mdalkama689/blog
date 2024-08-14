@@ -20,4 +20,4 @@ The project is organized into two main directories:
 ### 1. Clone the Repository
 
 ```bash
-git clone 
+git clone https://github.com/mdalkama689/blog.git
