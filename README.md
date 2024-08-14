@@ -21,3 +21,24 @@ The project is organized into two main directories:
 
 ```bash
 git clone https://github.com/mdalkama689/blog.git
+
+
+## Set up the backend
+cd backend
+npm install
+
+# Create .env file for the backend
+echo "MONGO_URI=mongouri
+PORT=3001
+JWT_SECRET_TOKEN=jwtsecret
+CLIENT_URL=http://localhost:3000
+
+# Start the backend server
+npm start
+
+# Set up the frontend
+cd ../frontend
+npm install
+
+# Start the frontend development server
+npm run dev
